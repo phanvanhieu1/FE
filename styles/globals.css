@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  caret-color: #16a34a;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: rgb(74, 222, 128);
+}
+
+::selection {
+  color: white;
+  background: rgb(74, 222, 128);
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
